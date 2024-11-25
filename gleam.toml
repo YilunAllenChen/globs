@@ -1,0 +1,17 @@
+name = "globs"
+version = "1.0.0"
+description = "personal blogs"
+
+[dependencies]
+gleam_stdlib = "~> 0.30"
+gleam_erlang = ">= 0.30.0 and < 1.0.0"
+mist = ">= 2.0.0 and < 3.0.0"
+wisp = ">= 1.2.0 and < 2.0.0"
+lustre = ">= 4.3.6 and < 5.0.0"
+gleam_http = ">= 3.7.1 and < 4.0.0"
+dot_env = ">= 1.2.0 and < 2.0.0"
+gleam_json = ">= 1.0.1 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = "~> 1.0.0"
+lustre_ssg = ">= 0.8.3 and < 1.0.0"
